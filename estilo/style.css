@@ -21,6 +21,36 @@ body {
     background-color: #dac8b3;
     border-radius: 50px;
 }
+#cabeca > .bone2 {
+    position: absolute;
+    left: 50%;
+    top: -40%;
+    border-radius: 100px 100px 0px 0px;
+    transform: translate(-50%);
+    width: 100%;
+    height: 100px;
+    background-image: url(../imagens/js.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#cabeca > .bone {
+    position: absolute;
+    left: 38%;
+    top: 10%;
+    transform: translate(-50%);
+    width: 250px;
+
+    height: 10px;
+    background-color: black;
+}
+.bone2 > .bone3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
 #cabeca > .orelha1 {
     position: absolute;
     top: 35%;
@@ -110,6 +140,15 @@ body {
     height: 30px;
     border-radius: 0px 0px 50px 50px;
     background-image: linear-gradient(to bottom, #dac8b3,  #cc8d44);
+}
+#cabeca > .bigode {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    width: 100px;
+    height: 15px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4b3621;
 }
 #cabeca > .boca {
     position: relative;
